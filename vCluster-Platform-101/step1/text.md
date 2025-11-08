@@ -2,4 +2,6 @@
 
 Head to [vCluster Cloud](https://www.vcluster.cloud)
 
-Create an Account.
+~[Scan results](../assets/vCluster-Cloud.jpeg)
+
+Create an Account, then 
