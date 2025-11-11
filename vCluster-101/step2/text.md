@@ -18,6 +18,8 @@ This will create the vCluster. Now we can see multiple contexts after the comman
 
 `kubectx`{{exec}}
 
+Now we are using the `vcluster_demo_demo_kubernetes-admin@kubernetes` context.
+
 Then we can take a look at the CRDs and Namspaces that exist in the vCluster.
 
 `kubectl get crd`{{exec}}
