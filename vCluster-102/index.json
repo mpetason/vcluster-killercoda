@@ -1,5 +1,5 @@
 {
-  "title": "v102 - vCluster",
+  "title": "v102 - vCluster.yaml",
   "description": "Welcome to vCluster 102!",
   "details": {
     "intro": {
@@ -12,19 +12,14 @@
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Deploy a vCluster",
+        "title": "Deploy a vCluster with vCluster.yaml",
         "text": "step2/text.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "Crete a Pod in vCluster",
+        "title": "Compare the vCluster and Host Cluster",
         "text": "step3/text.md",
         "verify": "step3/verify.sh"
-      },
-      {
-        "title": "Expose Pod using NodePort",
-        "text": "step4/text.md",
-        "verify": "step4/verify.sh"
       }
     ],
     "finish": {

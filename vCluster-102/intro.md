@@ -2,9 +2,9 @@
 
 
 We will:
-- Customize our vCluster with the vCluster.yaml
+- Install the vCluster CLI and Kubectx
 - Create a vCluster using the vCluster.yaml
-- Update our vCluster after modifying values in the vCluster.yaml
+- View the differences between the vCluster and the Host Cluster
 - Finish up and get ready for vCluster 103
 
 
