@@ -1,23 +1,27 @@
-#!/bin/bash
+clear
+cat << "EOF"
 
-# Foreground script for LLM on Kubernetes workshop
-# This script runs in the foreground during the workshop
+                ┌───────────────────────────────────────────┐
+                │           Physical Kubernetes Cluster     │
+                │                (Host Cluster)             │
+                │                                           │
+                │   Namespace: team-a                       │
+                │   ┌─────────────────────────────────────┐ │
+                │   │          vCluster: vcluster-a       │ │
+                │   │-------------------------------------│ │
+                │   │  API Server (virtual)               │ │
+                │   │  Controller Manager (virtual)       │ │
+                │   │  Scheduler (virtual)                │ │
+                │   │                                     │ │
+                │   │  Workloads inside vCluster →        │ │
+                │   │      Deployments / Pods / Services  │ │
+                │   └─────────────────────────────────────┘ │
+                │                                           │
+                │   Host Cluster Pods (Synced via Syncer)   │
+                │      ┌──────────────────────────────┐     │
+                │      │ syncer / coredns / workloads │     │
+                │      └──────────────────────────────┘     │
+                │                                           │
+                └───────────────────────────────────────────┘
 
-echo "🎯 LLM on Kubernetes Workshop - GITEX Dubai 2025"
-echo "================================================"
-echo
-echo "Welcome to the workshop! Let's get started with deploying LLMs on Kubernetes."
-echo
-echo "📋 Workshop Overview:"
-echo "  • Deploy vLLM for high-performance CPU inference"
-echo "  • Build a RAG application with document knowledge"
-echo "  • Implement multi-tenancy with vcluster"
-echo "  • Scale and optimize LLM workloads"
-echo
-echo "🛠️  Environment Status:"
-echo "  • Kubernetes cluster: $(kubectl get nodes --no-headers | wc -l) nodes"
-echo "  • Namespace: llm-workshop"
-echo "  • Tools installed: Helm, vcluster, jq"
-echo
-echo "🚀 Ready to start! Follow the steps in the workshop."
-echo
+EOF
