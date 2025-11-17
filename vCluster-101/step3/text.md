@@ -13,4 +13,3 @@ Then we can take a look at the CRDs and Namspaces that exist in the vCluster.
 We can also list the virtual clusters that have been created.
 
 `vcluster list`{{exec}}
-

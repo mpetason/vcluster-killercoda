@@ -3,6 +3,7 @@
 In this scenario we are going to cover most of the Quick-Start Guide (https://www.vcluster.com/docs/vcluster/) in the vCluster docs.
 
 We will:
+
 - Install the vCluster CLI
 - Deploy a vCluster
 - Inspect the vCluster

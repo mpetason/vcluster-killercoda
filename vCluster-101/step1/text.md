@@ -12,6 +12,6 @@ This should output the installed version of vCluster.
 
 ### View the current context
 
-With kubectx we can check the current contest to see which Kubernetes API endpoint we are currently using:
+With kubectx we can check the current context to see which Kubernetes API endpoint we are using:
 
 `kubectx`{{exec}}
